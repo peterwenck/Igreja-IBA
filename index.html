@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Igreja Comunidade & Vida - Um Lugar de Acolhimento e Fé</title>
+  <meta name="description" content="Bem-vindo à Igreja Comunidade & Vida. Cultos aos domingos às 10h e 18h. Um ambiente moderno, acolhedor e focado na família e no amor ao próximo.">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <!-- Logo -->
+      <a href="index.html" class="logo" aria-label="Página Inicial - Igreja Comunidade & Vida">
+        <div class="logo-symbol">CV</div>
+        <div class="logo-text">
+          <h1>Comunidade & Vida</h1>
+          <p>Igreja Acolhedora</p>
+        </div>
+      </a>
+
+      <!-- Nav Links -->
+      <nav aria-label="Navegação Principal">
+        <ul class="nav-links">
+          <li><a href="#inicio" class="nav-link active">Início</a></li>
+          <li><a href="#pastoral" class="nav-link">Boas-Vindas</a></li>
+          <li><a href="#ministerios" class="nav-link">Ministérios</a></li>
+          <li><a href="#eventos" class="nav-link">Agenda & Cultos</a></li>
+          <li><a href="#historias" class="nav-link">Depoimentos</a></li>
+          <li><a href="#localizacao" class="nav-link">Como Chegar</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <div class="live-indicator">
+          <span class="live-dot"></span>
+          <span>Ao Vivo</span>
+        </div>
+        <button class="inv-btn inv-btn--amber inv-btn--md js-open-visitor-modal">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          <span class="btn-label">Sou Novo Aqui</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION - EDITORIAL REFINEMENT
+       ========================================================================== -->
+  <section id="inicio" class="hero-section">
+    <div class="container hero-grid">
+      
+      <!-- Hero Content -->
+      <div class="hero-content">
+        <div class="hero-scripture-tag">
+          "Alegrei-me quando me disseram: Vamos à Casa do Senhor." (Salmos 122:1)
+        </div>
+
+        <h1 class="hero-title">
+          Um lugar de <span class="highlight">fé, acolhimento</span> e vida para sua família.
+        </h1>
+
+        <p class="hero-subtitle">
+          Não importa onde você esteja em sua jornada espiritual, você encontrará uma comunidade genuína, ambiente acolhedor e palavra inspiradora.
+        </p>
+
+        <div class="hero-ctas">
+          <button class="inv-btn inv-btn--primary inv-btn--lg js-open-visitor-modal">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="17" y1="11" x2="23" y2="11"></line></svg>
+            <span class="btn-label">Planejar Minha Primeira Visita</span>
+          </button>
+          
+          <a href="#eventos" class="inv-btn inv-btn--outline inv-btn--lg">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            <span class="btn-label">Assistir Culto Ao Vivo</span>
+          </a>
+        </div>
+
+        <!-- Service Times Organic Card -->
+        <div class="service-times-card">
+          <div class="service-card-header">
+            <span>HORÁRIOS DOS CULTOS PRESENCIAIS</span>
+            <span style="font-size: 0.75rem; color: var(--color-accent); font-weight: 700;">📍 Estacionamento Grátis</span>
+          </div>
+          <ul class="service-times-list">
+            <li class="service-time-item">
+              <span class="service-day">Domingos</span>
+              <span class="service-hour">10h e 18h</span>
+              <span class="service-desc">Celebração & Espaço Kids</span>
+            </li>
+            <li class="service-time-item">
+              <span class="service-day">Quartas-Feiras</span>
+              <span class="service-hour">19h30</span>
+              <span class="service-desc">Culto de Oração & Bíblia</span>
+            </li>
+            <li class="service-time-item">
+              <span class="service-day">Sábados</span>
+              <span class="service-hour">19h00</span>
+              <span class="service-desc">Encontro de Jovens</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Hero Media Showcase -->
+      <div class="hero-media">
+        <div class="hero-image-wrapper">
+          <img src="assets/images/hero.png" alt="Interior moderno e acolhedor do templo com luz natural">
+        </div>
+        <div class="hero-floating-badge">
+          <div class="floating-icon">🕊️</div>
+          <div>
+            <h3 style="font-size: 0.95rem; font-weight: 700; color: var(--color-dark);">Ambiente 100% Acessível</h3>
+            <p style="font-size: 0.8125rem; color: var(--color-text-muted);">Rampas de acesso, recepção guiada e espaço infantil climatizado.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PASTORAL WELCOME SECTION (HUMAN CONNECTION)
+       ========================================================================== -->
+  <section id="pastoral" class="pastoral-section">
+    <div class="container">
+      <div class="pastoral-card reveal-on-scroll">
+        <img src="assets/images/pastor.png" alt="Pastores sênior sorrindo acolhendo os visitantes" class="pastoral-photo">
+        <div>
+          <div class="editorial-sub">Palavra de Boas-Vindas</div>
+          <blockquote class="pastoral-quote">
+            "Você não é um estranho aqui, é nosso convidado de honra. Venha exatamente como você estiver. Nossa missão é caminhar ao seu lado com amor e esperança."
+          </blockquote>
+          <div class="pastoral-author">
+            <h4>Pr. Marcos & Ana Oliveira</h4>
+            <p>Pastores Sênior da Igreja Comunidade & Vida</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ASYMMETRICAL MINISTRIES EDITORIAL LAYOUT
+       ========================================================================== -->
+  <section id="ministerios" class="section-padding">
+    <div class="container">
+      
+      <div class="section-editorial-header reveal-on-scroll">
+        <div class="editorial-sub">Vida em Comunidade</div>
+        <h2 class="editorial-title">Ministérios & Grupos de Conexão</h2>
+      </div>
+
+      <div class="ministries-asymmetrical-grid">
+        
+        <!-- Featured Ministry (Kids) -->
+        <article class="featured-ministry-card reveal-on-scroll">
+          <img src="assets/images/children.png" alt="Crianças felizes aprendendo no Ministério Infantil" class="featured-img">
+          <div class="featured-body">
+            <span class="featured-tag">Destaque para Famílias (0 a 11 anos)</span>
+            <h3 class="featured-title">Ministério Infantil Kids Graça</h3>
+            <p style="font-size: 1.05rem; color: var(--color-text-muted); margin-bottom: 20px;">
+              Enquanto você assiste ao culto, seus filhos desfrutam de um ambiente 100% seguro, alegre e com lições bíblicas preparadas por voluntários e pedagogos treinados.
+            </p>
+            <ul style="font-size: 0.9rem; color: var(--color-text-main); margin-bottom: 24px; display: flex; flex-direction: column; gap: 8px;">
+              <li>✓ Check-in de segurança por pulseira identificadora</li>
+              <li>✓ Salas divididas por faixa etária</li>
+              <li>✓ Berçário com monitoria médica e de amamentação</li>
+            </ul>
+            <button class="inv-btn inv-btn--amber inv-btn--md js-open-visitor-modal" style="width: fit-content;">
+              <span class="btn-label">Conhecer o Espaço Kids</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Secondary Ministries Stack -->
+        <div class="secondary-ministries-stack">
+          
+          <article class="secondary-ministry-card reveal-on-scroll reveal-delay-1">
+            <img src="assets/images/youth.png" alt="Jovens reunidos em comunhão" class="secondary-thumb">
+            <div>
+              <span style="font-size: 0.75rem; font-weight: 700; color: var(--color-accent); text-transform: uppercase;">Jovens & Adolescentes</span>
+              <h4 style="font-size: 1.2rem; font-weight: 700; color: var(--color-dark); margin: 4px 0 6px;">Geração Eleita</h4>
+              <p style="font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 10px;">
+                Conexão real, grupos de estudo, retiros e encontros todos os sábados às 19h.
+              </p>
+              <button class="inv-btn inv-btn--ghost inv-btn--sm js-open-visitor-modal" style="color: var(--color-accent); padding: 0;">
+                <span class="btn-label">Ver Encontros →</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="secondary-ministry-card reveal-on-scroll reveal-delay-2">
+            <img src="assets/images/music.png" alt="Equipe de louvor e adoração no palco" class="secondary-thumb">
+            <div>
+              <span style="font-size: 0.75rem; font-weight: 700; color: var(--color-primary); text-transform: uppercase;">Louvor & Artes</span>
+              <h4 style="font-size: 1.2rem; font-weight: 700; color: var(--color-dark); margin: 4px 0 6px;">Ministério de Música</h4>
+              <p style="font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 10px;">
+                Adoração viva e contemporânea que conduz a igreja em oração e momentos de louvor.
+              </p>
+              <button class="inv-btn inv-btn--ghost inv-btn--sm js-open-visitor-modal" style="color: var(--color-primary); padding: 0;">
+                <span class="btn-label">Audiações & Equipe →</span>
+              </button>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+
+      <!-- Social Outreach Banner -->
+      <div class="social-outreach-banner reveal-on-scroll">
+        <div>
+          <h3>🤝 Ação Social & Apoio às Famílias do Bairro</h3>
+          <p>
+            Distribuição de cestas básicas, reforço escolar gratuito e bazar solidário. Venha colaborar ou receber apoio de nossa equipe de voluntários.
+          </p>
+        </div>
+        <button class="inv-btn inv-btn--amber inv-btn--lg js-open-visitor-modal" style="white-space: nowrap;">
+          <span class="btn-label">Quero Apoiar / Participar</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       EVENTS & INTERACTIVE AGENDA WITH FILTERS
+       ========================================================================== -->
+  <section id="eventos" class="section-padding events-section">
+    <div class="container">
+      
+      <div class="section-editorial-header reveal-on-scroll">
+        <div class="editorial-sub">Agenda & Reuniões</div>
+        <h2 class="editorial-title">Próximos Cultos & Eventos Especiais</h2>
+      </div>
+
+      <!-- Filter Chips -->
+      <div class="event-category-filters reveal-on-scroll">
+        <button class="filter-chip active" data-filter="all">Todos os Eventos</button>
+        <button class="filter-chip" data-filter="culto">Cultos Presenciais</button>
+        <button class="filter-chip" data-filter="jovens">Jovens & Encontros</button>
+        <button class="filter-chip" data-filter="familia">Família & Visitantes</button>
+      </div>
+
+      <div class="events-container-grid">
+        
+        <!-- Events List -->
+        <div class="events-list">
+          
+          <div class="event-card reveal-on-scroll" data-category="culto">
+            <div class="event-date-box">
+              <span class="event-day">28</span>
+              <span class="event-month">SET</span>
+            </div>
+            <div class="event-info">
+              <span class="event-time">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                Próximo Domingo — 10h00 e 18h00
+              </span>
+              <h3 class="event-title">Culto Especial de Celebração & Batismos</h3>
+              <p class="event-desc">Celebração festiva com louvor, testemunhos e recepção calorosa aos novos membros e visitantes.</p>
+            </div>
+            <button class="inv-btn inv-btn--amber inv-btn--sm js-open-visitor-modal">
+              <span class="btn-label">Confirmar Presença</span>
+            </button>
+          </div>
+
+          <div class="event-card reveal-on-scroll reveal-delay-1" data-category="familia">
+            <div class="event-date-box" style="background: var(--color-primary);">
+              <span class="event-day">04</span>
+              <span class="event-month">OUT</span>
+            </div>
+            <div class="event-info">
+              <span class="event-time">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                1º Domingo do Mês — 09h00
+              </span>
+              <h3 class="event-title">Café da Manhã com Visitantes</h3>
+              <p class="event-desc">Se você é novo por aqui, venha tomar um café especial com nossos pastores antes do culto das 10h.</p>
+            </div>
+            <button class="inv-btn inv-btn--outline inv-btn--sm js-open-visitor-modal">
+              <span class="btn-label">Quero Participar</span>
+            </button>
+          </div>
+
+          <div class="event-card reveal-on-scroll reveal-delay-2" data-category="jovens">
+            <div class="event-date-box" style="background: var(--color-dark);">
+              <span class="event-day">15</span>
+              <span class="event-month">OUT</span>
+            </div>
+            <div class="event-info">
+              <span class="event-time">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                Sábado — 19h00
+              </span>
+              <h3 class="event-title">Noite de Adoração Geração Eleita</h3>
+              <p class="event-desc">Encontro jovem com louvor ao vivo, palavra desafiadora e momento de comunhão após o culto.</p>
+            </div>
+            <button class="inv-btn inv-btn--secondary inv-btn--sm js-open-visitor-modal">
+              <span class="btn-label">Saiba Mais</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Live Stream Countdown Sidebar -->
+        <aside class="live-broadcast-box reveal-on-scroll reveal-delay-1">
+          <span style="font-size: 0.75rem; font-weight: 700; color: #FCD34D; text-transform: uppercase; letter-spacing: 0.05em;">Transmissão Online</span>
+          <h3 class="live-box-title">Próximo Culto Ao Vivo no YouTube</h3>
+          <p style="font-size: 0.9rem; color: #CBD5E1;">
+            Acompanhe nossa transmissão em HD aos domingos às 10h diretamente no conforto de sua casa.
+          </p>
+
+          <div class="live-countdown">
+            <div class="countdown-unit">
+              <span id="cd-hours" class="countdown-num">18</span>
+              <span class="countdown-lbl">Horas</span>
+            </div>
+            <div class="countdown-unit">
+              <span id="cd-mins" class="countdown-num">42</span>
+              <span class="countdown-lbl">Min</span>
+            </div>
+            <div class="countdown-unit">
+              <span id="cd-secs" class="countdown-num">15</span>
+              <span class="countdown-lbl">Seg</span>
+            </div>
+          </div>
+
+          <button class="inv-btn inv-btn--amber inv-btn--md" onclick="window.open('https://youtube.com', '_blank')">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            <span class="btn-label">Acessar Canal do YouTube</span>
+          </button>
+        </aside>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       STORIES OF TRANSFORMATION (TESTIMONIALS)
+       ========================================================================== -->
+  <section id="historias" class="stories-section">
+    <div class="container">
+      
+      <div class="section-editorial-header reveal-on-scroll" style="text-align: center; max-width: 640px; margin: 0 auto 48px;">
+        <div class="editorial-sub">Depoimentos Reais</div>
+        <h2 class="editorial-title">Histórias da Nossa Comunidade</h2>
+      </div>
+
+      <div class="stories-grid">
+        
+        <article class="story-card reveal-on-scroll">
+          <p class="story-text">
+            "Fomos recebidos com tanto carinho no nosso primeiro domingo! A equipe do Kids cuida tão bem dos nossos filhos que conseguimos cultuar com o coração em paz."
+          </p>
+          <div class="story-author">
+            <div class="story-avatar">RC</div>
+            <div>
+              <div class="story-name">Ricardo & Camila Santos</div>
+              <div class="story-role">Membros há 2 anos</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card reveal-on-scroll reveal-delay-1">
+          <p class="story-text">
+            "Eu estava procurando um lugar onde pudesse aprender a Bíblia sem julgamentos. Na Comunidade & Vida encontrei amigos verdadeiros e um propósito renovado."
+          </p>
+          <div class="story-author">
+            <div class="story-avatar" style="background: var(--color-primary-light); color: var(--color-primary);">FA</div>
+            <div>
+              <div class="story-name">Fernanda Almeida</div>
+              <div class="story-role">Participante dos Grupos de Conexão</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card reveal-on-scroll reveal-delay-2">
+          <p class="story-text">
+            "O ambiente é extremamente acolhedor e acessível para quem tem dificuldade de locomoção como eu. É realmente uma família de fé."
+          </p>
+          <div class="story-author">
+            <div class="story-avatar" style="background: rgba(15,23,42,0.1); color: var(--color-dark);">JO</div>
+            <div>
+              <div class="story-name">João Carlos Oliveira</div>
+              <div class="story-role">Visitante frequente</div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT & LOCATION SECTION (CONTATO & LOCALIZAÇÃO)
+       ========================================================================== -->
+  <section id="contato-localizacao" class="contact-location-section">
+    <div class="container">
+      
+      <div class="section-editorial-header reveal-on-scroll" style="margin-bottom: 40px;">
+        <div class="editorial-sub">Fale Conosco & Visite-nos</div>
+        <h2 class="editorial-title">Contato & Localização</h2>
+      </div>
+
+      <div class="contact-location-grid">
+        
+        <!-- Left Column: Contact & Prayer Form -->
+        <div class="contact-form-card reveal-on-scroll">
+          <div class="form-header">
+            <span class="form-tag">✉️ Atendimento & Oração</span>
+            <h3 class="form-title">Tem alguma dúvida ou pedido de oração?</h3>
+            <p class="form-subtitle">Envie-nos uma mensagem! Nossa equipe pastoral responderá com todo carinho.</p>
+          </div>
+
+          <form id="contact-prayer-form" class="contact-form">
+            <div class="form-group">
+              <label class="form-label" for="c-name">Seu Nome Completo</label>
+              <input type="text" id="c-name" class="form-input" placeholder="ex: Ana Maria" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="c-email">Seu E-mail</label>
+              <input type="email" id="c-email" class="form-input" placeholder="ex: ana@email.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="c-subject">Assunto / Tipo de Contato</label>
+              <select id="c-subject" class="form-input">
+                <option>Dúvida sobre os Cultos / Primeira Visita</option>
+                <option>Pedido de Oração / Aconselhamento</option>
+                <option>Informações sobre Ministérios / Kids</option>
+                <option>Ação Social & Voluntariado</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="c-message">Sua Mensagem ou Pedido de Oração</label>
+              <textarea id="c-message" class="form-input" rows="4" placeholder="Escreva aqui sua mensagem..." required style="height: auto; padding: 12px; font-family: var(--font-body);"></textarea>
+            </div>
+
+            <button type="submit" class="inv-btn inv-btn--amber inv-btn--lg" style="width: 100%; margin-top: 8px;">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              <span class="btn-label">Enviar Mensagem</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Right Column: Visite-nos (Large Map + Hours + Address) -->
+        <div class="visit-us-card reveal-on-scroll reveal-delay-1">
+          <!-- Large Interactive Map Container -->
+          <div class="visit-map-wrapper">
+            <iframe 
+              title="Mapa de Localização da Igreja Comunidade e Vida"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197491741639!2d-46.6586!3d-23.5615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+          <!-- Structured Information below map -->
+          <div class="visit-info-details">
+            <div class="visit-info-block">
+              <h4 class="visit-block-title">📍 Onde Estamos</h4>
+              <p class="visit-text">Av. da Comunidade, 1000 — Bairro Centro, São Paulo - SP</p>
+              <p class="visit-subtext">📞 (11) 99876-5432 / (11) 3344-5566</p>
+              <p class="visit-subtext">✉️ contato@comunidadeevida.org.br</p>
+              
+              <button class="inv-btn inv-btn--outline inv-btn--sm" style="margin-top: 12px;" onclick="window.open('https://maps.google.com?q=Av.+da+Comunidade+1000+Centro+Sao+Paulo', '_blank')">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon><line x1="9" y1="3" x2="9" y2="18"></line><line x1="15" y1="6" x2="15" y2="21"></line></svg>
+                <span class="btn-label">Abrir no Google Maps</span>
+              </button>
+            </div>
+
+            <div class="visit-info-block">
+              <h4 class="visit-block-title">⏰ Horários dos Cultos</h4>
+              <ul class="visit-hours-list">
+                <li><strong>Domingos:</strong> 10h & 18h</li>
+                <li><strong>Quartas:</strong> 19h30 (Oração)</li>
+                <li><strong>Sábados:</strong> 19h00 (Jovens)</li>
+              </ul>
+              <p class="visit-subtext" style="margin-top: 8px;"><strong>Estacionamento:</strong> Gratuito e privativo no local com segurança.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       MINIMALIST FOOTER SECTION
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <!-- Column 1: Brand Info -->
+        <div class="footer-brand">
+          <h2>Comunidade & Vida</h2>
+          <p>
+            Uma igreja acolhedora comprometida com o ensino bíblico, a família, o amor ao próximo e o serviço comunitário.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="YouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div>
+          <h3 class="footer-title">Navegação</h3>
+          <ul class="footer-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#pastoral">Boas-Vindas Pastoral</a></li>
+            <li><a href="#ministerios">Ministérios</a></li>
+            <li><a href="#eventos">Agenda de Eventos</a></li>
+            <li><a href="#contato-localizacao">Contato & Localização</a></li>
+            <li><a href="#" class="js-open-visitor-modal">Sou Novo Aqui</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>© 2026 Igreja Comunidade & Vida. Todos os direitos reservados.</p>
+        <p>Desenvolvido com foco em acessibilidade e acolhimento.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       VISITOR WELCOME MODAL ("SOU NOVO AQUI")
+       ========================================================================== -->
+  <div id="visitor-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <button class="modal-close js-close-visitor-modal" aria-label="Fechar janela">&times;</button>
+      
+      <span style="font-size: 0.8125rem; font-weight: 700; color: var(--color-accent); text-transform: uppercase;">Boas-Vindas</span>
+      <h2 id="modal-title" style="font-size: 1.75rem; color: var(--color-dark); margin-bottom: 8px;">Queremos te Conhecer!</h2>
+      <p style="font-size: 0.95rem; color: var(--color-text-muted); margin-bottom: 24px;">
+        Sabemos que visitar uma igreja pela primeira vez pode gerar dúvidas. Aqui estão algumas respostas rápidas e como se preparar:
+      </p>
+
+      <div style="background: var(--color-light-bg); border-radius: var(--radius-md); padding: 16px; margin-bottom: 24px;">
+        <h3 style="font-size: 0.9rem; font-weight: 700; color: var(--color-dark); margin-bottom: 8px;">Dúvidas Frequentes do Visitante:</h3>
+        <ul style="font-size: 0.85rem; color: var(--color-text-muted); padding-left: 20px; display: flex; flex-direction: column; gap: 6px;">
+          <li><strong>O que vestir?</strong> Venha como se sentir mais confortável! Não há código de vestimenta.</li>
+          <li><strong>Tem estacionamento?</strong> Sim, temos estacionamento próprio e gratuito com seguranças no local.</li>
+          <li><strong>Onde deixo minhas crianças?</strong> Na recepção, nossa equipe do Kids Graça cuidará dos seus filhos com todo carinho.</li>
+        </ul>
+      </div>
+
+      <form id="visitor-form">
+        <div class="form-group">
+          <label class="form-label" for="v-name">Seu Nome Completo</label>
+          <input type="text" id="v-name" class="form-input" placeholder="ex: Maria Silva" required>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+          <div class="form-group">
+            <label class="form-label" for="v-phone">WhatsApp / Telefone</label>
+            <input type="tel" id="v-phone" class="form-input" placeholder="(11) 99999-9999" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="v-date">Previsão da Visita</label>
+            <select id="v-date" class="form-input">
+              <option>Próximo Domingo - 10h</option>
+              <option>Próximo Domingo - 18h</option>
+              <option>Quarta-Feira - 19h30</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="inv-btn inv-btn--amber inv-btn--lg" style="width: 100%; margin-top: 12px;">
+          <span class="btn-label">Enviar e Agendar Recepção Especial</span>
+        </button>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- JavaScript Scripts -->
+  <script src="button.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
